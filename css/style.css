@@ -1,0 +1,286 @@
+#topBand {
+    text-align: center;
+}
+
+#topBand i {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px rgba(197, 150, 150, 0.959);
+    padding: 0.5em 0.6em;
+    color: #CA7754;
+}
+
+#topBand i:hover {
+    box-shadow: 1px 1px 5px rgba(197, 150, 150, 0.959);
+}
+
+#topBand i.fa-facebook-square:hover{
+    color: #395599;
+}
+
+#topBand i.fa-twitter-square:hover{
+    color: #1C9DEB;
+}
+
+#topBand i.fa-google-plus-square:hover{
+    color: #ED4F1D;
+}
+
+.navbar-brand img {
+    height: 75px;
+    width: 160px;
+}
+
+.navbar {
+    /* background-color: #FFFAF0 !important;
+    background-color: rgba(231, 185, 124, 0.158) !important; */
+    background-color: rgb(252, 244, 233) !important;
+}
+
+.navbar-nav li a {
+    font-weight: 700;
+    color: #A68A53 !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: 18px;
+}
+
+.navbar-nav li a:hover{
+    color:rgba(90, 71, 33, 0.884) !important ;
+}
+
+nav div i {
+    font-size: 22px;
+    color: #CA7754;
+    /* color: #EBC363; */
+}
+
+nav div i:hover {
+    color: #EBC363;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+}
+
+#heading h3 {
+    color: #A68A53;
+}
+
+#heading hr {
+    width: 8%;
+}
+
+#exploreIcons div div {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#exploreIcons a {
+    text-decoration: none;
+}
+
+#exploreIcons i {
+    font-size: 35px;
+    color: #CA7754;
+}
+
+#exploreIcons p {
+    color: black;
+}
+
+#exploreIcons a:hover i {
+    color: #EBC363;
+}
+
+#exploreIcons a:hover p {
+    color: rgb(94, 92, 92);
+}
+
+#heading hr#topSellers {
+    width: 6%;
+}
+
+#cat img {
+    height: 200px;
+}
+
+#cat a {
+    color: black;
+}
+
+#cat a:hover {
+    color: rgb(94, 92, 92);
+}
+
+#footer{
+    Background-color:rgba(231, 185, 124, 0.158);
+    color:rgb(110,79,19);
+}
+
+#footer i{
+    font-size: 25px;
+    color: #6C757D;
+}
+
+#footer i.fa-facebook-square:hover{
+    color: #395599;
+}
+
+#footer i.fa-twitter-square:hover{
+    color: #1C9DEB;
+}
+
+#footer i.fa-google-plus-square:hover{
+    color: #ED4F1D;
+}
+
+#footer span{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#footer span a{
+    color: inherit;
+}
+
+#about span.city{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#about span.details{
+    font-weight: 900;
+}
+
+#contact .cont-det span{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family:cursive;
+}
+
+
+        /* Media Queries */
+
+/**************************************
+             Large devices 
+**************************************/
+
+@media only screen and (max-width: 1199px) {
+    .navbar-brand img {
+        height: 90px;
+        width: 160px;
+    }
+
+    .navbar-nav li a {
+        font-size: 20px;
+    }
+
+    #blog,#blog h4,#blog h5{
+        font-size: 120%;
+    }
+
+    #contact{
+        font-size: 110%;
+    }
+
+    #about #heading h3,#blog #heading h3,#contact #heading h3,#products #heading h3{
+        font-size: 125%;
+    }
+}
+
+/**************************************
+             small devices 
+**************************************/
+
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        margin-left: -15px;
+        margin-right: 4px;
+    }
+
+    .navbar-brand img {
+        height: 70px !important;
+        width: 114px !important;
+    }
+
+    .navbar-nav li a {
+        font-size: 16px !important;
+    }
+
+    nav i {
+        font-size: 17px !important;
+    }
+
+    #heading h3 {
+        font-size: 150%;
+    }
+
+    #exploreIcons i {
+        font-size: 27px;
+    }
+
+    #exploreIcons p {
+        font-size: 80%;
+    }
+
+    #blog,#blog h4,#blog h5{
+        font-size: 113%;
+    }
+
+    #contact{
+        font-size: 95%;
+    }
+
+    #about #heading h3,#blog #heading h3,#contact #heading h3,#products #heading h3{
+        font-size: 115%;
+    }
+
+}
+
+/**************************************
+        extra small devices 
+**************************************/
+
+@media only screen and (max-width: 575px) {
+    .navbar-brand {
+        margin-left: 0px !important;
+    }
+
+    .navbar-brand img {
+        height: 80px !important;
+        width: 155px !important;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #exploreIcons i {
+        font-size: 25px;
+    }
+
+    #heading h3 {
+        font-size: 130%;
+    }
+
+    #exploreIcons p {
+        font-size: 65%;
+    }
+
+    #blog,#blog h4,#blog h5{
+        font-size: 102%;
+    }
+
+    #contact{
+        font-size: 92%;
+    }
+
+    #about #heading h3,#blog #heading h3,#contact #heading h3,#products #heading h3{
+        font-size: 110%;
+    }
+
+}
